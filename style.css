@@ -1,0 +1,41 @@
+body {
+    background: #fff;
+    color: #333;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #e4e4e4;
+}
+
+.container {
+    display: block;
+    width: 400px;
+    margin: 10px auto 100px;
+    background-color: #fff;
+    padding: 0px 10px 10px 10px;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li * {
+    float: left;
+}
+
+li,
+h1 {
+    clear: both;
+    list-style: none;
+}
+
+input,
+button {
+    outline: none;
+}
