@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>TODO List</h2>
+        <h3>Add Item</h3>
+        <p>
+            <input id="new-task" type="text"><button>Add</button>
+        </p>
+
+        <h3>Todo</h3>
+        <ul id="pending-taks">
+            <li><input type="checkbox"><label>Task 1</label>
+                <input type="text"><button class="edit">Edit</button><button class="delete"></button>
+            </li>
+            <li><input type="checkbox"><label>Task 2</label>
+                <input type="text" value="Task 2"><button class="edit">Edit</button><button
+                    class="delete">Delete</button>
+            </li>
+        </ul>
+
+        <h3>Completed</h3>
+        <ul id="completed-tasks">
+            <li><input type="checkbox" checked><label>Completed Task 3</label><input type="text"><button
+                    class="edit">Edit</button><button class="delete">Delete</button>
+
+            </li>
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
