@@ -101,3 +101,41 @@ li {
     padding: 20px 0;
     border-bottom: 1px solid #eee;
 }
+
+li > input[type='checkbox'] {
+    margin: 0 10px;
+    position: relative;
+    top: 15px;
+}
+
+li > label {
+    font-size: 18px;
+    line-height: 40px;
+    width: 236px;
+   padding: 0 0 0 11px; 
+}
+
+li > input [type='text'] {
+    width: 226px;
+}
+
+li > .delete:hover {
+    color: #cf2323;
+}
+
+#completed-tasks label {
+    text-decoration: line-through;
+    color: #888;
+}
+
+ul li input[type='text'] {
+    display: none;
+}
+
+ul li.editMode input[type=text] {
+    display: block;
+}
+
+ul li.editMode label {
+    display: none;
+}
