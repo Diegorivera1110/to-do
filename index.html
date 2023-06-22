@@ -5,41 +5,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TODO</title>
-
-    <link rel="stylesheet" href="style.css">
+    <title>ToDo</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-    <div class="container">
-        <h2>TODO List</h2>
-        <h3>Add Item</h3>
-        <p>
-            <input id="new-task" type="text">
-            <button id="add">Add</button>
-        </p>
 
-        <h3>Todo</h3>
-        <!-- <ul id="pending-taks">
-            <li><input type="checkbox"><label>Task 1</label>
-                <input type="text"><button class="edit">Edit</button><button class="delete"></button>
-            </li>
-            <li><input type="checkbox"><label>Task 2</label>
-                <input type="text" value="Task 2"><button class="edit">Edit</button><button
-                    class="delete">Delete</button>
-            </li>
-        </ul>
+    <header>
+        <h1>To Do List</h1>
+        <form id="new-task">
+            <input type="text" id="new-task" placeholder="What do you have to going on?" />
+            <input type="submit" id="new-submit" value="Add Task" />
+        </form>
+    </header>
 
-        <h3>Completed</h3>
-        <ul id="completed-tasks">
-            <li><input type="checkbox" checked><label>Completed Task 3</label><input type="text"><button
-                    class="edit">Edit</button><button class="delete">Delete</button>
-
-            </li>
-        </ul> -->
-        <h3>Completed</h3>
-        <div id="tasks"></div>
-    </div>
+    <main>
+        <section class="task-list">
+            <h2>Tasks</h2>
+            <div class="tasks">
+                <div class="task">
+                    <div class="content">
+                        <input type="text" class="tex" value="My Task" readonly />
+                    </div>
+                    <div class="actions">
+                        <button class="edit">Edit</button>
+                        <button class="delete">Delete</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <script src="script.js"></script>
 </body>
