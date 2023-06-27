@@ -95,7 +95,7 @@
       color: #888;
   }
   
-  #new-task {
+  #new-form {
     flex: 1 1 0%;
     background-color: var(--forest);
     padding: 1rem;
@@ -106,11 +106,12 @@
   }
   
   #new-task::placeholder {
-    color: var(--gray);
+  /*   color: var(--gray); */
   }
   
   #new-submit {
-    color: var(--tan);
+    color: var(--offWhite);
+    float: right;
     font-size: 1.25rem;
     font-weight: 700;
   /*   background-image: linear-gradient(to right, var(--gray)); */
@@ -162,13 +163,13 @@
     transition: 0.4s;
   }
   
-  /* .tasks .task .content .text:not(:read-only) {
-    color: var(--tan);
-  } */
+  .tasks .task .content .text:not(:read-only) {
+  /*   color: var(--tan); */
+  }
   
   .tasks .task .actions {
     display: flex;
-    margin: -0.5rem;
+    margin: 0 -0.5rem;
   }
   
   .task .actions button {
