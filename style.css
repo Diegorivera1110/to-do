@@ -105,9 +105,9 @@
     font-size: 1.25rem;
   }
   
-  #new-task::placeholder {
-  /*   color: var(--gray); */
-  }
+  /* #new-task::placeholder {
+    color: var(--gray);
+  } */
   
   #new-submit {
     color: var(--offWhite);
@@ -163,9 +163,9 @@
     transition: 0.4s;
   }
   
-  .tasks .task .content .text:not(:read-only) {
-  /*   color: var(--tan); */
-  }
+  /* .tasks .task .content .text:not(:read-only) {
+    color: var(--tan);
+  } */
   
   .tasks .task .actions {
     display: flex;
