@@ -1,7 +1,7 @@
 # To-Do
 
   ## Description
-  I created this project to strenghten my basic JavaScript skills as well as CSS skills. This project uses very minimal and basic HTML and relys heavily on the JavaScript and CSS to maintain new tasks added to a to-do list as well as work to delete or edit those tasks. 
+  I created this project to strengthen my basic JavaScript skills as well as CSS skills. This project uses very minimal and basic HTML and relies heavily on JavaScript and CSS to maintain new tasks added to a to-do list as well as work to delete or edit those tasks. 
 
   ## Table of Contents
   - [Installation](#installation)
@@ -12,10 +12,10 @@
   - [Questions](#questions)
 
   ## Installation
-  This project can be installed by either Git Pulling from the main directory or by copying the files directly on to your device. 
+  This project can be installed by either Git Pulling from the main directory or by copying the files directly onto your device. 
 
   ## Usage
-  This is used for create and manage a to-do list. 
+  This is used to create and manage a to-do list. 
 
   ## Credits
   Diego Rivera
